@@ -1,0 +1,165 @@
+body {
+    background-image: url(img/house.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 150vw;
+    height: 50vw;
+}
+html{
+    overflow: hidden;
+    
+}
+#nube img {
+    width: 25vw;
+    height: 10vw;
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-name: nube;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+}
+#flor img {
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    bottom: 0vw;
+    left: 40vw;
+    opacity: 0;
+    animation-name: flower;
+    animation-duration: 5s;
+    animation-delay: 6s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-direction:normal;
+    animation-fill-mode: both;
+
+}
+#sol img {
+    width: 25vw;
+    height: 15vw;
+    padding-right: 6vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+    animation-name: sun;
+    animation-duration: 8s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease;
+    animation-direction: reverse;
+}
+#lluvia img {
+    width: 20vw;
+    height: 30vw;
+    position: relative;
+    top: 0;
+    left: 37vw;
+    opacity: 0;
+
+
+    animation-name: rain;
+    animation-duration: 8s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+}
+#mensajes img {
+    width: 20vw;
+    height: 10vw;
+    position: absolute;
+    top: 10vw;
+    left: 42vw;
+
+
+
+    animation-name: mensajes;
+    animation-duration: 11s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+}
+@keyframes 
+
+nube {
+    0% {
+        right: 0vw;
+        opacity: 0;
+    }
+    50%{
+        right: 40vw;
+        opacity: 1;
+    }
+    100% {
+        right: 40vw;
+        opacity: 0;
+    }
+}
+@keyframes 
+
+rain {
+    0% {
+        top: 0vw;
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        top: 100vw;
+        opacity: 1;
+    }
+}
+@keyframes 
+
+sun {
+    0% {
+        top: 0vw;
+        opacity: 0;
+    }
+    100% {
+        top: 100vw;
+        opacity: 1;
+    }
+}
+@keyframes 
+
+flower {
+    0% {
+        bottom: 0vw;
+        opacity: 0;
+    }
+    100% {
+        bottom: 8vw;
+        opacity: 1;
+    }
+}
+@keyframes 
+
+mensajes {
+    0% {
+        bottom: 0vw;
+        opacity: 0;
+    }
+    100% {
+        bottom: 10vw;
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
