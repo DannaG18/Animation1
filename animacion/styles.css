@@ -1,0 +1,35 @@
+body {
+    background-image: url(img/house.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 150vw;
+    height: 50vw;
+}
+#nube img {
+    width: 25vw;
+    height: 10vw;
+    position: absolute;
+
+
+    animation-name: none;
+    animation-duration: 3s;
+}
+#sol img {
+    width: 30vw;
+    height: 20vw;
+    position: relative;
+}
+#lluvia img {
+    width: 30vw;
+    height: 30vw;
+    position: relative;
+}
+#flor img {
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+}
+
+
